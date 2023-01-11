@@ -1,0 +1,57 @@
+#score{
+    margin-left: 5px;
+    font-size: 40px;
+    font-family: 'Updock', sans-serif;
+    font-weight: bolder;
+    color: black;
+}
+#timer{
+    float: right;
+    margin-right: 5px;
+    font-size: 40px;
+    font-family: 'Updock', sans-serif;
+    font-weight: bolder;
+    color: black;
+}
+body{
+    background-image: linear-gradient(yellow, #12674a);
+}
+h1{
+    color: rgb(38,0,255);
+    font-family: 'DynaPuff', sans-serif;
+    text-shadow: 5px 5px 5px hotpink;
+    size: 35px;
+}
+#show_sketch{
+    float: right;
+}
+p, span{
+    font-family: 'Pacifico', sans-serif;
+    font-size: 25px;
+    color: black;
+    padding-top:10px;
+}
+#sketch_to_be_drawn{
+    font-family: 'Dancing Script', sans-serif;
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    font-weight: bolder;
+}
+
+canvas 
+  {
+    border:2px solid white;
+    border-radius:20px;
+    margin-top:135px;
+    box-shadow:5px 5px 5px rgb(0, 0, 0);
+    box-shadow: 1px 1px 38px #000000;
+    animation-name: example;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+@keyframes example {
+
+  from {box-shadow: 1px 1px 38px red;}
+  to {box-shadow: 1px 1px 38px white;}
+
+}
